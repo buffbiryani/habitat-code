@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: url("/neuemontreal.ttf") format("truetype");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 
+@font-face {
+  font-family: "NeueMontreal";
+  src: url("/PPNeueMontreal-Variable.woff2") format("woff2"),
+    url("/PPNeueMontreal-Variable.woff") format("woff");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+} */
+
+* {
+  font-family: "NeueMontreal" !important;
+}
+
+h1 {
+  font-weight: 375;
+  line-height: 1;
+  margin: 0;
+}
+
+body {
+  background: #fff0d2;
+  color: #1e00ff;
+}

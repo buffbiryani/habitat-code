@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Habitat Extension",
+  "version": "0.1.7",
+  "description": "Scrape the current page, summarize the main points, and open a new rabbits-hole node on Habitat.",
+  "permissions": ["activeTab", "scripting", "storage", "contextMenus"],
+  "host_permissions": [
+    "http://localhost:3001/*",
+    "https://habitatai.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Send to Habitat"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  }
+}
